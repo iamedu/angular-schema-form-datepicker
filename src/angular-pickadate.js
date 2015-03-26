@@ -34,6 +34,8 @@ angular.module('schemaForm').directive('pickADate', function () {
         onClose: function () {
           element.blur();
         },
+        selectYears: true,
+        selectMonths: true,
         formatSubmit: null
       };
       if (scope.pickADate) {
